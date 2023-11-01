@@ -5,7 +5,7 @@
 #ifndef BTH_DV1626_MINUTESTOSECONDS_H
 #define BTH_DV1626_MINUTESTOSECONDS_H
 
-//CODE BENEATH
+//CODE BENEATH 
 
 int minutesToSeconds(int minutes, int seconds) {
 
