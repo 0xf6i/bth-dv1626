@@ -5,7 +5,7 @@
 #ifndef BTH_DV1626_MULTIPLICATION_H
 #define BTH_DV1626_MULTIPLICATION_H
 
-//Bara under här som är relevant:
+// CODE BENEATH
 
 int multiplication(int a, int b){
     int product;
