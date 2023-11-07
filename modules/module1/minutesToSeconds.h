@@ -4,6 +4,7 @@
 
 #ifndef BTH_DV1626_MINUTESTOSECONDS_H
 #define BTH_DV1626_MINUTESTOSECONDS_H
+#include <iostream>
 
 //CODE BENEATH
 
@@ -13,8 +14,8 @@ int minutesToSeconds(int minutes, int seconds) {
     totalSeconds = minutes * 60;
     totalSeconds += seconds;
 
-    return totalSeconds;
-
+    std::cout << totalSeconds;
+    return 0;
 };
 
 

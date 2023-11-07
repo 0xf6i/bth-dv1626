@@ -7,7 +7,7 @@
 
 // CODE BENEATH
 
-float convertMilesToKilometer(int miles){
+float convertMilesToKilometer(float miles){
     float mileLength = 1.609344;
     float convertedMiles = miles * mileLength;
 

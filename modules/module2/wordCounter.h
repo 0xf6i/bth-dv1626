@@ -13,8 +13,8 @@ void wordCounter() {
     cout << "Please enter your message: ", getline(cin,userMessage);
 
     int sentenceSpaces = 0;
-    for (int i = 0; i < userMessage.length(); i++) {
-        if (userMessage[i] == ' '){
+    for (char i : userMessage) {
+        if (i == ' '){
             sentenceSpaces++;
 
         }

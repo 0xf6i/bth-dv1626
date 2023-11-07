@@ -45,7 +45,7 @@ void dieRoller() {
     if (userScore > aiScore){
         cout << "You won!";
     } else if (userScore < aiScore){
-        cout << "I won!22";
+        cout << "I won!";
     } else if ( userScore == aiScore){
         cout << "It's a tie.";
     }

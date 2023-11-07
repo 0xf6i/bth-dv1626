@@ -21,10 +21,10 @@ void occuranceCounter() {
 
     cout << "How many rolls? ", cin >> amountRuns;
 
-    int randomNumber = distribution(gen);
+    int randomNumber;
 
     for (int i = 0; i < amountRuns; i++){
-        int randomNumber = distribution(gen);
+        randomNumber = distribution(gen);
         counts[randomNumber - 1]++;
         cout << randomNumber << " ";
     }
@@ -33,7 +33,7 @@ void occuranceCounter() {
     for (int i = 0; i < 6; ++i) {
         cout << i + 1 << ": ";
         for (int j = 0; j < counts[i]; ++j) {
-            cout << "#";
+            cout << "*";
         }
         cout << endl;
     }

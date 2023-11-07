@@ -9,17 +9,9 @@
 
 void canDivideBySeven(int a){
     bool status;
-
     // simplified if-statement (ternary operator)
     a % 7 == 0 ? status = true : status = false;
-
-
-    if (status){
-        std::cout << "Can divide by seven";
-    }
-    else {
-        std::cout << "Cannot divide by seven";
-    }
+    status ? std::cout << "Can divide by seven" : std::cout << "Cannot divide by seven";
 }
 
 

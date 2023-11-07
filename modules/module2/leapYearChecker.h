@@ -12,7 +12,9 @@ void leapYearChecker() {
 
     int year;
     cout << "What year would you like to check? ", cin >> year;
-    (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0) ? cout << year << " is a leap year." : cout << year << " is not a leap year.";
+    (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0) ?
+    cout << year << " is a leap year." :
+    cout << year << " is not a leap year.";
 
 };
 

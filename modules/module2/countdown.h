@@ -11,7 +11,7 @@ using namespace std;
 void countdown() {
 
     for (int i = 20; i >= 10; i--){
-        cout << i << ", ";
+        cout << i << endl;
     }
 
 };
