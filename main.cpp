@@ -1,14 +1,12 @@
-#include "iostream"
-#include "./lectures/lecture1/minutesToSeconds.h"
-#include "./lectures/lecture1/convertMilesToKilometer.h"
-#include "./lectures/lecture1/multiplication.h"
-#include "./lectures/lecture1/division.h"
-#include "./lectures/lecture1/canDivideBySeven.h"
 
+#include "./lectures/lecture2/lecture_b.h"
+
+
+#include "iostream"
 using namespace std;
 
 int main(){
-
-    canDivideBySeven(14);
+    lecture_b();
     return 0;
 }
+
