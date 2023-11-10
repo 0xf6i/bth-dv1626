@@ -22,8 +22,17 @@ int lecture_b() {
     cout << nr1 << " " << nr2 << endl;
     print("Hello", 17);
     print("Hello world");
-    const int CAP = 3;
+   /* const int CAP = 3;
     int nrs[CAP]{0};
+    */
+
+   int* nrs = nullptr;
+   int capacity = 0;
+
+   cout << "Input the capacity of the array";
+   cin >> capacity;
+   cin.ignore();
+   nrs = new int[capacity] {0};
 
     return 0;
 }

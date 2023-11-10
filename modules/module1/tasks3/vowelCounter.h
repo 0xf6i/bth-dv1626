@@ -14,13 +14,19 @@ void vowelCounter(){
     int vowelCount;
     vowelCount = 0;
     char vowels[6] = {'A','E','I','Y','U', 'O'};
+    char* letters = nullptr;
+    int capacity = 0;
+
 
     string userMessage;
     cout << "Please enter your message: ", getline(cin, userMessage);
 
+
     transform(userMessage.begin(), userMessage.end(), userMessage.begin(), ::toupper);
-    char letters[userMessage.length()];
+    letters = new char[capacity]{0};
     strcpy(letters, userMessage.c_str());
+
+
 
 
     for (int j = 0; j < userMessage.length(); j++){
@@ -34,6 +40,8 @@ void vowelCounter(){
     }
 
     cout << "There was a total of " <<  vowelCount << " vowels in the sentence." << endl;
+
+//    delete[] letters;
 
 }
 

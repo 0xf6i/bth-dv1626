@@ -24,6 +24,8 @@ add_executable(bth-dv1626 main.cpp
         lectures/lecture2/lecture_a.h
         modules/module1/tasks3/vowelCounter.h
         modules/module1/tasks3/rockPaperScissor.h
-        lectures/lecture_assignments/iceCreamGrader.h
+        lectures/lecture_assignments/t1/t1m1/functions.h
         lectures/lecture2/lecture_b.h
+        lectures/lecture_assignments/t1/t1m2/functions.cpp
+        lectures/lecture_assignments/t1/t1m2/functions.h
 )
